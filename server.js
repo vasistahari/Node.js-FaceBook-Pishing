@@ -33,6 +33,7 @@ var express = require('express');
         {
 		  
          res.setHeader("content-type","text/plain"); 
+         
           res.end("data inserted successfully");  
         }
       });    
